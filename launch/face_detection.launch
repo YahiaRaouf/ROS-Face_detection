@@ -1,0 +1,4 @@
+<launch>
+  <!-- Start the face detection node -->
+  <node pkg="face_detection_pkg" type="face_detection_node" name="face_detection_node" output="screen" />
+</launch>
